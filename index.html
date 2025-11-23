@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Produções de Português e Redação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Portfólio de Produções</h1>
+                <p>Língua Portuguesa e Redação</p>
+            </div>
+            <nav>
+                <div class="hamburger" id="hamburger">☰</div>
+                <ul id="nav-menu">
+                    <li><a href="#producoes">Produções</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle" aria-label="Alternar modo claro/escuro">
+                            🌙
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Produções de Português e Redação</h2>
+            <p>Um compilado das 15 produções realizadas ao longo do ano letivo, demonstrando o desenvolvimento das habilidades de escrita e interpretação textual.</p>
+        </div>
+    </section>
+
+    <!-- Produções -->
+    <section id="producoes">
+        <div class="container">
+            <h2 class="section-title">Minhas Produções</h2>
+            <div class="productions-grid" id="productions-container">
+                <!-- As produções serão inseridas aqui via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre o Portfólio</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Este portfólio reúne as 15 produções desenvolvidas ao longo do ano letivo nas disciplinas de Língua Portuguesa e Redação. Cada trabalho representa uma etapa do meu desenvolvimento nas habilidades de leitura, interpretação e produção textual.</p>
+                    <p>Através destas produções, pude explorar diferentes gêneros textuais, técnicas de argumentação e elementos da língua portuguesa, consolidando meu aprendizado e demonstrando minha evolução como escritor e leitor crítico.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Estudante escrevendo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contador -->
+    <section class="counter">
+        <div class="container">
+            <div class="counter-content">
+                <div class="counter-item">
+                    <div class="counter-number" id="production-count">15</div>
+                    <div class="counter-label">Produções</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" id="page-count">0</div>
+                    <div class="counter-label">Páginas Escritas</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" id="word-count">0</div>
+                    <div class="counter-label">Palavras Escritas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <p>Portfólio de Produções - Língua Portuguesa e Redação</p>
+                <p>Final do Ano Letivo</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Email">✉️</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                </div>
+                <p>&copy; Emily Roxo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="production-modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal">&times;</button>
+            <h2 id="modal-title">Título da Produção</h2>
+            <div class="modal-body" id="modal-body">
+                <!-- Conteúdo será inserido via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
